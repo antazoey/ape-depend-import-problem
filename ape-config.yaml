@@ -1,0 +1,19 @@
+name: fresh_ape_test
+
+plugins:
+  - name: solidity
+    version: ">=0.6.0 <0.9.0"
+  - name: hardhat
+    version: "0.8.1"
+  - name: etherscan
+    version: "0.8.2"
+  - name: foundry
+    version: "0.8.4"
+
+dependencies:
+  - name: uniswap-core
+    github: Uniswap/v3-core/contracts
+    version: 1.0.0
+  - name: uniswap-periphery
+    github: Uniswap/v3-periphery/contracts
+    version: 1.3.0
