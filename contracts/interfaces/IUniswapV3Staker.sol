@@ -6,8 +6,8 @@ import '@uniswap-core/contracts/interfaces/IUniswapV3Factory.sol';
 import '@uniswap-core/contracts/interfaces/IUniswapV3Pool.sol';
 import '@uniswap-core/contracts/interfaces/IERC20Minimal.sol';
 
-import '@uniswap-periphery/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
-import '@uniswap-periphery/v3-periphery/contracts/interfaces/IMulticall.sol';
+import '@uniswap-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
+import '@uniswap-periphery/contracts/interfaces/IMulticall.sol';
 
 /**
  * @title ERC721 token receiver interface
